@@ -7,10 +7,10 @@ class Solution(object):
         """
         
         #First solution
-        return sorted(s) == sorted(t)
+        # return sorted(s) == sorted(t)
         
         #Second solution o(n)
-        # return Counter(s) == Counter(t)
+        return Counter(s) == Counter(t)
         
 #         #Third solution o(s+t)
 #         if len(s) != len(t):
